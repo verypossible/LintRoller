@@ -24,13 +24,13 @@ Style/RedundantSelf:
   Enabled: false
 
 Metrics/LineLength:
-  Max: 120
+  Max: 80
 
 Style/WhileUntilModifier:
-  MaxLineLength: 120
+  MaxLineLength: 80
 
 Metrics/LineLength:
-  Max: 120
+  Max: 80
 
 Metrics/MethodLength:
   Max: 5
