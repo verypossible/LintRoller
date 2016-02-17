@@ -1,5 +1,4 @@
 AllCops:
-  RunRailsCops: true
   DisplayCopNames: true
   Include:
     - '**/Rakefile'
@@ -13,6 +12,9 @@ AllCops:
     - 'script/**/*'
     - 'vendor/**/*'
     - !ruby/regexp /old_and_unused\.rb$/
+
+Rails:
+  Enabled: true
 
 Rails/HasAndBelongsToMany:
   Enabled: false
